@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Habboon Economy Values</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f8fc;
+            color: #333;
+        }
+        header {
+            background-color: #0073e6;
+            color: white;
+            padding: 15px 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #005bb5;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            padding: 20px;
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #0073e6;
+        }
+        .search-box {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+        .search-box input {
+            width: 70%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .search-box button {
+            padding: 10px 15px;
+            background-color: #0073e6;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .search-box button:hover {
+            background-color: #005bb5;
+        }
+        .item-list {
+            margin: 20px 0;
+        }
+        .item {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 15px;
+            border-bottom: 1px solid #ccc;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #005bb5;
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Habboon Economy Values</h1>
+        <p>Your ultimate guide to rare values in Habboon!</p>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#values">Values</a>
+        <a href="#updates">Updates</a>
+        <a href="#contact">Contact Us</a>
+    </nav>
+
+    <div class="container">
+        <section id="home">
+            <h2>Welcome to Habboon Economy Values</h2>
+            <p>Stay up to date with the latest values for rares and items in the Habboon economy. Search for specific items or browse our categorized list to get started.</p>
+        </section>
+
+        <section id="values" class="search-box">
+            <input type="text" id="search" placeholder="Search for an item...">
+            <button onclick="searchValue()">Search</button>
+        </section>
+
+        <section id="values-list" class="item-list">
+            <div class="item">
+                <span>Golden Trophy</span>
+                <span>150c</span>
+            </div>
+            <div class="item">
+                <span>Dragon Lamp</span>
+                <span>120c</span>
+            </div>
+            <div class="item">
+                <span>Throne</span>
+                <span>300c</span>
+            </div>
+        </section>
+
+        <section id="updates">
+            <h2>Recent Updates</h2>
+            <p>Check out the latest changes in the rare values!</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Have suggestions or feedback? Reach out to us!</p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Habboon Economy Values. All rights reserved.</p>
+    </footer>
+
+    <script>
+        function searchValue() {
+            const searchInput = document.getElementById('search').value;
+            alert('Search feature coming soon for: ' + searchInput);
+        }
+    </script>
+</body>
+</html>
